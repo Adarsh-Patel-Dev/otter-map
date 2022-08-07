@@ -1,0 +1,17 @@
+.header{
+    background-color: var(--PRIMARY-COLOR);
+    color: var(--WHITE);
+    padding: 3rem;
+    width: auto;
+    font-size: 2rem;
+    height: 5vh;
+}
+
+.map-container{
+   height: 85vh;
+    width: 100%;
+   font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

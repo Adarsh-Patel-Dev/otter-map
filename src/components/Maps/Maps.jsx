@@ -4,6 +4,7 @@ import Map from "ol/Map";
 import View from "ol/View";
 import TileLayer from "ol/layer/Tile";
 import XYZ from "ol/source/XYZ";
+import "./map.css"
 
 function Maps() {
   new Map({
@@ -24,8 +25,10 @@ function Maps() {
   const { name } = useUserContext();
   return (
     <section>
-      <h2>{name}</h2>
-      <div className="map-container"></div>
+      <h2 className="header">Welcome <em>{name}</em></h2>
+      <div className="map-container">
+        This is map section.
+      </div>
     </section>
   );
 }

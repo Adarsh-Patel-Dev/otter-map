@@ -23,6 +23,7 @@ function Login() {
             onSubmit={(e) => {
               e.preventDefault();
               navigate("/maps");
+              
             }}
             className="flex flex-col gap-md pad-xl input-form"
           >
